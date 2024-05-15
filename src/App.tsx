@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useState } from "react";
 import wordData from "./worldList.json";
 import "./App.css";
-import { HangmanDrawing, HangmanWord, Keyboard } from "./component/index";
+import {  HangmanWord } from "./component/HangmanWord";
+import {  HangmanWord } from "./component/HangmanWord";
+import {  Keyboard } from "./component/Keyboard";
 
 function getWord() {
   return wordData[Math.floor(Math.random() * wordData.length)];
